@@ -1,0 +1,21 @@
+
+body {background-color:#00CCFF;}
+header {width:800px; height:250px; margin-left:auto; margin-right:auto; margin-top:0px; padding-top:1px;}
+footer { width:800px; text-align:right; margin:auto;}
+
+a:link {font-family:avenir; font-size:20px; color:black; text-decoration:none;}
+a:visited {font-family:avenir; font-size:20px; color:black; text-decoration:none;}
+a:hover {font-family:avenir; font-size:20px; color:white; text-decoration:none;}
+a:active {font-family:avenir; font-size:20px; color:white; text-decoration:none;}
+
+@font-face {
+    font-family: 'the_constellation_of_heraclIt';
+    src: url('the_constellation_of_heracles-webfont.eot');
+    src: url('the_constellation_of_heracles-webfont.eot?#iefix') format('embedded-opentype'),
+         url('the_constellation_of_heracles-webfont.woff2') format('woff2'),
+         url('the_constellation_of_heracles-webfont.woff') format('woff'),
+         url('the_constellation_of_heracles-webfont.ttf') format('truetype'),
+         url('the_constellation_of_heracles-webfont.svg#the_constellation_of_heraclIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
