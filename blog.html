@@ -4,20 +4,23 @@
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Srujana's Blog</title>
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.21/p5.js"></script>
+	<script language="javascript" src="js/sketch2.js"></script>
 	<style>
-		#container {background-color:black; width:600px; margin:auto;}
-		.entry {background-color:yellow; width:600px;}
+		#container {width:600px; margin:auto;}
+		.entry {width:600px; font-family:avenir; font-size:15px; color:black; text-decoration:none;}
 	</style>
 </head>
 
 <body>
-	<header>
-		<h1>Srujana's Blog</h1>	
+	<header id=mySketch>
 	</header>
 	
 	<section id=container>
+        <h1 id=portalTitle>Srujana's Portal</h1>
 		<article class=entry>
-			<h3>January 7, 2016</h3>
+            <h3><span style="font-family:impact; color:white; font-size:20px;">January 7, 2016</span></h3>
 			<p>	An interface that I frequently use is the smartsite for UC Davis.
 				An aspect of the design for the website interface that I found to 
 				be quite effective is that the navigation is very clear. The menus 
@@ -37,11 +40,26 @@
 			</p>
 			<img src="interface.png" alt="interface" style="width:600px;">
 		</article>
+		
+		<article class=entry>
+            <h3><span style="font-family:impact; color:white; font-size:20px;">January 19, 2016</span></h3>
+			<p>	A web-based form I use often is the log-in screen for UC Davis web applications. 
+			It features two input boxes, one for the Login ID, and one for the Passphrase. The layout is  
+			friendly as it is clear where the input boxes are and they are clearly labelled. The type hierarchy 
+			is working as it shows what the page is, with "Secure Log In" in the biggest font size. The Login ID 
+			and Passphrase labels could be larger so that the user does not get confused with the other type that is
+			the same size. The color scheme is professional and apt for a university, but it could use with a bit of 
+			livening up. The various colors of the type work well to point out and distinguish the links from the 
+			static type.
+			</p>
+			<p>article/slideshow: http://www.slideshare.net/billder/learning-ixd-from-everyday-objects</p>
+			<img src="CAS.png" alt="CAS webform" style="width:600px;">
+		</article>
 	</section>
 	
 	<footer>
-		<a href="mailto:ssdanda@ucdavis.edu">Contact: ssdanda@ucdavis.edu</a>
-		<h5>html validation: https://validator.w3.org/</h5>
-		<h5>css validation: http://jigsaw.w3.org/css-validator/</h5>
+		<a href="https://validator.w3.org/check?uri=referer"><img src="HTML5.png" height="48" alt="link to html5 validation"></a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="css3.png" height="48" alt="link to css3 validation"></a><br />
+		<a style="font-size:15px;" href="mailto:ssdanda@ucdavis.edu">contact: ssdanda@ucdavis.edu</a>
 	</footer>
 </body>
