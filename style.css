@@ -1,7 +1,12 @@
 
 body {background-color:#00CCFF;}
 header {width:800px; height:250px; margin-left:auto; margin-right:auto; margin-top:0px; padding-top:1px;}
-footer { width:800px; text-align:right; margin:auto;}
+footer {position:fixed; left:20px; bottom:30px; width:200px; text-align:right;}
+
+#container {height:300px; width:800px; margin-left:auto; margin-right:auto; margin-top:0px; padding-top:0px;}
+#one {height:200px; width:400px; float:left; margin-top:0px;}
+#two {height:200px; width:400px; float:left; margin-top:0px;}
+#portalTitle {color:yellow; margin:auto; text-align:center; font-family: 'the_constellation_of_heraclIt'; font-size:180px; font-weight:normal; font-style:normal;}
 
 a:link {font-family:avenir; font-size:20px; color:black; text-decoration:none;}
 a:visited {font-family:avenir; font-size:20px; color:black; text-decoration:none;}
