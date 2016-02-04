@@ -3,25 +3,47 @@
 <head>
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Chivo" />
 	<title>Srujana's Blog</title>
     
     <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.21/p5.js"></script>
 	<script language="javascript" src="js/sketch2.js"></script>
-	<style>
-		#container {width:600px; margin:auto;}
-		.entry {width:600px; font-family:avenir; font-size:15px; color:black; text-decoration:none;}
-	</style>
 </head>
 
 <body>
 	<header id=mySketch>
 	</header>
 	
-	<section id=container>
-        <h1 id=portalTitle>Srujana's Portal</h1>
+	<section id=blogContainer>
+        <h1 id=portalTitle>Srujana's Blog</h1>
         
         <article class=entry>
-            <h3><span style="font-family:impact; color:white; font-size:20px;">January 19, 2016</span></h3>
+            <h3><span class=date>February 4th, 2016</span></h3>
+			<p>	
+			This is my interface for my Pocket Full of Interface project. I connected the various visual 
+			elements of my design by utilizing a common color scheme and the round button-like shape. I used a
+			gradient in order to give my elements dimension. When hovered, the image changes in content and size,
+			allowing the user to interact with it smoothly. I used the animate function to achieve this. Another
+			 effective aspect I think is the circle that the elements are arranged in. A third aspect is the click 
+			 function that pulls up an overlay that provides more information about the element that is being explored.
+			</p>
+			<img src="images/pocket.png" alt="interface for ex4" style="width:600px;">
+		</article>
+        
+        <article class=entry>
+            <h3><span class=date>January 28, 2016</span></h3>
+			<p>	This is my Time is On My Side. I was struggling with the functions, so it did not turn out exactly how I planned.
+			I really did enjoy this project, but I just to give myself more time to figure out the technical aspects.
+			I also spent a great deal of time trying to get my project to animate, even though it wasn't part of the requirements
+			so I regret wasting that time instead of focusing on getting it to work. I want to add more features such as color code 
+			the hour by using a span tag for each element. In addition, I want to add a click feature. However, I did learn a great 
+			deal of jquery, which I find very fun! I see a lot of potential for my next project; I just have to start early and give myself lots of time to experiment.
+			</p>
+			<img src="images/pic.png" alt="interface for ex3" style="width:600px;">
+		</article>
+        
+        <article class=entry>
+            <h3><span class=date>January 19, 2016</span></h3>
 			<p>	A web-based form I use often is the log-in screen for UC Davis web applications. 
 			It features two input boxes, one for the Login ID, and one for the Passphrase. The layout is  
 			friendly as it is clear where the input boxes are and they are clearly labelled. The type hierarchy 
@@ -31,12 +53,12 @@
 			livening up. The various colors of the type work well to point out and distinguish the links from the 
 			static type.
 			</p>
-			<p>article/slideshow: http://www.slideshare.net/billder/learning-ixd-from-everyday-objects</p>
-			<img src="CAS.png" alt="CAS webform" style="width:600px;">
+			<p>article/slideshow: <a href="http://www.slideshare.net/billder/learning-ixd-from-everyday-objects"><span class=blogLink>http://www.slideshare.net/billder/learning-ixd-from-everyday-objects</span></a></p>
+			<img src="images/CAS.png" alt="CAS webform" style="width:600px;">
 		</article>
         
 		<article class=entry>
-            <h3><span style="font-family:impact; color:white; font-size:20px;">January 7, 2016</span></h3>
+            <h3><span class=date>January 7, 2016</span></h3>
 			<p>	An interface that I frequently use is the smartsite for UC Davis.
 				An aspect of the design for the website interface that I found to 
 				be quite effective is that the navigation is very clear. The menus 
@@ -54,14 +76,14 @@
 				functional purpose of an organizational website for communication 
 				between students and teachers. 
 			</p>
-			<img src="interface.png" alt="interface" style="width:600px;">
+			<img src="images/interface.png" alt="interface" style="width:600px;">
 		</article>
 		
 	</section>
 	
 	<footer>
-		<a href="https://validator.w3.org/check?uri=referer"><img src="HTML5.png" height="48" alt="link to html5 validation"></a>
-		<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="css3.png" height="48" alt="link to css3 validation"></a><br />
+		<a href="https://validator.w3.org/check?uri=referer"><img src="images/HTML5.png" height="48" alt="link to html5 validation"></a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="images/css3.png" height="48" alt="link to css3 validation"></a><br />
 		<a style="font-size:15px;" href="mailto:ssdanda@ucdavis.edu">contact: ssdanda@ucdavis.edu</a>
 	</footer>
 </body>
