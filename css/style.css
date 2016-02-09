@@ -8,6 +8,13 @@ footer {position:fixed; left:20px; bottom:30px; width:200px; text-align:right;}
 #two {height:200px; width:400px; float:left; margin-top:0px;}
 #portalTitle {color:yellow; margin:auto; text-align:center; font-family: 'the_constellation_of_heraclIt'; font-size:180px; font-weight:normal; font-style:normal;}
 
+/* blog format */
+#blogContainer {width:600px; margin:auto;}
+.entry {width:600px; font-family:avenir; font-size:15px; color:black; text-decoration:none; margin-top:50px;}
+.date {font-family:impact; color:white; font-size:30px; font-weight:normal; font-style:normal;}
+.blogLink {font-size:15px;}
+/* end of blog format */
+
 a:link {font-family:avenir; font-size:20px; color:black; text-decoration:none;}
 a:visited {font-family:avenir; font-size:20px; color:black; text-decoration:none;}
 a:hover {font-family:avenir; font-size:20px; color:white; text-decoration:none;}
