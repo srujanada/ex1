@@ -3,13 +3,14 @@ body {background-color:#00CCFF;}
 header {width:800px; height:250px; margin-left:auto; margin-right:auto; margin-top:0px; padding-top:1px;}
 footer {position:fixed; left:20px; bottom:30px; width:200px; text-align:right;}
 
-#container {height:300px; width:800px; margin-left:auto; margin-right:auto; margin-top:0px; padding-top:0px;}
-#one ol{height:200px; width:400px; float:left; margin-top:0px;}
+#container {position:relative; height:800px; width:1000px; margin-left:auto; margin-right:auto; margin-top:0px; padding-top:0px;}
+#one ol{ height:200px; width:220px; float:left; margin-top:0px;}
 #one li{font-family:avenir; font-size:18px;}
-#two ul{height:200px; width:400px; float:left; margin-top:0px;}
+#projectLeft { height:300px; width:200px; margin-left:-100px; float:left; margin-top:0px;}
+#projectRight { height:300px; width:220px; margin-left:0px; float:left; margin-top:0px;}
 #portalTitle {color:yellow; margin:auto; text-align:center; font-family: 'the_constellation_of_heraclIt'; font-size:180px; font-weight:normal; font-style:normal;}
 h2.category {font-family:optima; color:white; font-size:30px; font-weight:normal; font-style:normal; margin-left:40px; position:relative;}
-
+#two h2.category {margin-left:-60px;}
 
 /* blog format */
 #blogContainer {width:600px; margin:auto;}
